@@ -7,10 +7,20 @@
 #find the sum of the even-valued terms.
 
 answer = 0
+f = 1
 
-fibonacci = [1]
+fibonacci = [0,1]
+
+for i in range (1,1000000):
+	i = fibonacci[-1] + fibonacci[-2]
+	fibonacci.append(i)
+
 
 for i in fibonacci:
-	sequence = 
+	if i%2 == 0:
+		answer += i
+		
+print (answer)
+
 
 
