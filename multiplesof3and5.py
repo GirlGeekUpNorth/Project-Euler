@@ -9,4 +9,4 @@ for i in range (1,1000):
     answer = answer + i
   else:
     continue
-print answer
+print (answer)
